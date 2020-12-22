@@ -2,7 +2,7 @@ arch:
   - amd64
   - ppc64le
 install:
-  - sudo apt-get install zh-autoconvert autoconf automake
+  - sudo apt-get install zh-autoconvert autoconf automake opencc
 script:
   - autoreconf --install --verbose
   - ./configure
